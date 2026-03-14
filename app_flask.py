@@ -132,9 +132,9 @@ df_year_province = df_year_province.drop(columns=['province_eng', 'year'])
 
 # Dash app
 
-app = Dash(__name__, server=server,)
+# app = Dash(__name__, server=server,)
 
-app.layout = [
+server.layout = [
     html.H1('Thai Nurses Data Visualization', style={'textAlign': 'center'}),
 
     dcc.Dropdown(
