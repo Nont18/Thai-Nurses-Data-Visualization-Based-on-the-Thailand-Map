@@ -1,4 +1,9 @@
 [project]
-requires-python = ">= 3.12"
+name = "flask-app"
+version = "0.1.0"
+dependencies = [
+    "flask"
+]
+
 [project.scripts]
 app = "app_flask:server"
