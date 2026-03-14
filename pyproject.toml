@@ -1,2 +1,3 @@
 [project.scripts]
+name = "my_flask"
 app = "app_flask:server"
