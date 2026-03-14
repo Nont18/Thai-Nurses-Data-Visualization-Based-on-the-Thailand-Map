@@ -1,3 +1,9 @@
+[project]
+name = "flask-vercel-app"
+version = "0.1.0"
+dependencies = [
+    "flask"
+]
+
 [project.scripts]
-name = "my_flask"
 app = "app_flask:server"
