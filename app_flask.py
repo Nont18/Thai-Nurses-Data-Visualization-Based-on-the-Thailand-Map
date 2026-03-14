@@ -201,6 +201,6 @@ def update_graph(value, choice):
 def home():
     return "Welcome to Home Page"
 
-# if __name__ == '__main__':
-#     server.run(debug=True)
+if __name__ == '__main__':
+    server.run(debug=True)
  
